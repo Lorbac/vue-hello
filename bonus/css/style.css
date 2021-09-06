@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin: 50px 0 100px 0;
+}
+
+.myImg {
+    background-image: url("https://img.huffingtonpost.com/asset/5cc1f76d260000530071078a.jpeg?ops=scalefit_630_noupscale");
+    background-size: cover;
+}
+
+#root div {
+    width: 400px;
+    height: 200px;
+}
